@@ -59,10 +59,10 @@ const cli = meow(`
 const stop = () => desktopIcons.forceShow().catch(() => {});
 
 const hideIcons = (path) => {
-  stop();
-
-  desktopIcons.hide(path, { detached: true }).then(pid => {
-    fs.writeFile('hdi.pid', pid, () => process.exit(0));
+  stop().then(() => {
+    desktopIcons.hide(path, { detached: true }).then(pid => {
+      fs.writeFile('hdi.pid', pid, () => process.exit(0));
+    });
   });
 }
 
