@@ -8,7 +8,6 @@ const isUrl = require('is-url-superb');
 const got = require('got');
 const tempfile = require('tempfile');
 const desktopIcons = require('hide-desktop-icons');
-const fkill = require('fkill');
 
 const wallpapers = {
   'cheetah': 'http://512pixels.net/downloads/macos-wallpapers/10-0_10.1.png',
