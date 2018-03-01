@@ -1,0 +1,42 @@
+{
+  "name": "hide-desktop-icons-cli",
+  "version": "0.1.0",
+  "description": "Clean your desktop by temporarily hiding your icons",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karaggeorge/hide-desktop-icons-cli.git"
+  },
+  "keywords": [
+    "hide",
+    "desktop",
+    "icons",
+    "clean",
+    "wallpaper",
+    "macOS"
+  ],
+  "author": "George Karagkiaouris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karaggeorge/hide-desktop-icons-cli/issues"
+  },
+  "homepage": "https://github.com/karaggeorge/hide-desktop-icons-cli#readme",
+  "dependencies": {
+    "fkill": "^5.2.0",
+    "got": "^8.2.0",
+    "hide-desktop-icons": "^0.3.2",
+    "is-url-superb": "^2.0.0",
+    "meow": "^4.0.0",
+    "tempfile": "^2.0.0"
+  },
+  "bin": {
+    "hide-desktop-icons": "cli.js",
+    "hdi": "cli.js",
+    "clean-desktop": "cli.js"
+  },
+  "files": [
+    "cli.js"
+  ]
+}
