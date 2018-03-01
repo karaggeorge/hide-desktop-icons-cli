@@ -1,6 +1,6 @@
 {
   "name": "hide-desktop-icons-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Clean your desktop by temporarily hiding your icons",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
